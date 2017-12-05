@@ -1,1 +1,1 @@
-# tech-rador-kotlin
+# tech-radar-kotlin
