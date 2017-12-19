@@ -1,7 +1,7 @@
 package com.thoughtworks.wh.techrador.kotlin.smartcast
 
+import org.junit.Assert
 import org.junit.Test
-import kotlin.test.assertEquals
 
 sealed class Expr
 class Num(val value: Int) : Expr()
@@ -16,8 +16,8 @@ fun eval(e: Expr): Int =
 class SmartCastTest {
     @Test
     fun testEval() {
-        assertEquals(9, eval(Num(value = 9)))
-        assertEquals(10, eval(Sum(left = Num(4), right = Num(6))))
-        assertEquals(15, eval(Sum(Num(9), Sum(Num(2), Num(4)))))
+        Assert.assertEquals(9, eval(Num(value = 9)))
+        Assert.assertEquals(10, eval(Sum(left = Num(4), right = Num(6))))
+        Assert.assertEquals(15, eval(Sum(Num(9), Sum(Num(2), Num(4)))))
     }
 }

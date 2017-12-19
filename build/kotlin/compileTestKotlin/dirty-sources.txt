@@ -1,0 +1,5 @@
+/Users/xjzhou/workspaces/kotlin/tech-rador-kotlin/src/test/kotlin/com/thoughtworks/wh/techrador/kotlin/dataclass/KPersonTest.kt
+/Users/xjzhou/workspaces/kotlin/tech-rador-kotlin/src/test/kotlin/com/thoughtworks/wh/techrador/kotlin/smartcast/SmartCastTest.kt
+/Users/xjzhou/workspaces/kotlin/tech-rador-kotlin/src/test/kotlin/com/thoughtworks/wh/techrador/kotlin/lambda/KLambdaTest.kt
+/Users/xjzhou/workspaces/kotlin/tech-rador-kotlin/src/test/kotlin/com/thoughtworks/wh/techrador/kotlin/nullable/KNullableTest.kt
+/Users/xjzhou/workspaces/kotlin/tech-rador-kotlin/src/test/kotlin/com/thoughtworks/wh/techrador/kotlin/extensionfn/ExtensionsKtTest.kt

@@ -1,7 +1,7 @@
 package com.thoughtworks.wh.techrador.kotlin.lambda
 
+import org.junit.Assert
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class KLambdaTest {
     @Test
@@ -9,6 +9,6 @@ class KLambdaTest {
         val sum = { x: Int, y: Int -> x + y }
         val square: (Int) -> Int = { x -> x * x }
 
-        assertEquals(5, sum(1, square(2)))
+        Assert.assertEquals(5, sum(1, square(2)))
     }
 }
